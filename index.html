@@ -1,0 +1,28 @@
+<head>
+	<title>x-Height Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<p>All sizes are in mm</p>
+	<div id="container">
+		<div id=controls>
+			Ascender <input type="number" id="ascender" value="5"><br />
+			x-Height <input type="number" id="xheight" value="10"><br />
+			Descender <input type="number" id="descender" value="5"><br />
+			Spacing <input type="number" id="spacing" value="2"><br />
+			Rows <input type="number" id="rows" value="10"><br />
+			Orientation <select name="orientation"  id="orientation"><br />
+				<option value="portrait">Portrait</option>
+				<option value="landscape">Landscape</option>
+			</select>
+			<input type="button" value="Generate" onclick="generate()"><br />
+		</div>
+	
+		<canvas id="canvas1"></canvas>
+	</div>
+	<script src="guidelineGenerator.js" type="text/javascript"></script>
+
+
+
+</body>

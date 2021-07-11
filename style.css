@@ -1,0 +1,13 @@
+#container{
+	display: flex;
+}
+
+#canvas1{
+	background: white;
+	border:1px solid #000000;
+}
+
+
+#controls{
+	width: 15%;
+}
