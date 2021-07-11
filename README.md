@@ -2,4 +2,4 @@
 
 Create printable guideline sheets for calligraphy, or anything else.
 
-Or use this version online: [](https://jdmce.github.io/guideline/)
+Or use this version online: [https://jdmce.github.io/guideline/](https://jdmce.github.io/guideline/)
