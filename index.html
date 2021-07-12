@@ -15,7 +15,11 @@
 			Orientation <select name="orientation"  id="orientation"><br />
 				<option value="portrait">Portrait</option>
 				<option value="landscape">Landscape</option>
-			</select>
+			</select><br/>
+			<input type="checkbox" id="drawSlant" name="drawSlant">
+			<label for="drawSlant">Draw Slant lines</label><br/>
+			Slant Angle <input type="number" name="slantAngle" id="slantAngle" value="45"><br/>
+			Slant Spacing <input type="number" id="slantSpacing" value="20"><br/>
 			<input type="button" value="Generate" onclick="generate()"><br />
 		</div>
 	
