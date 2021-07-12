@@ -63,10 +63,6 @@ function generate(){
 	let slantAngle = document.getElementById("slantAngle").value;
 	let slantSpacing = document.getElementById("slantSpacing").value;
 
-	console.log(drawSlant);
-
-
-
 	let orientation = document.getElementById("orientation").value;
 	if (orientation == "portrait"){
 		canvas.width = 794;
